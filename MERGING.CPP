@@ -5,7 +5,7 @@ public:
 int a[10],b[10],c[20],p,q,t;
 void create();
 void merge();
-void display();
+
 };
 void array::create(){
 int i;
