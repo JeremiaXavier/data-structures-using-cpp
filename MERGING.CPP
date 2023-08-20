@@ -23,13 +23,6 @@ cin>>b[i];
 }
 }
 
-void array::display(){
-cout<<"merged array is\n";
-for(int i=1;i<=t;i++){
-cout<<c[i]<<" ";
-}
-}
-
 void array:: merge(){
 int m,n,o;
 m=1;
