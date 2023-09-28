@@ -5,7 +5,7 @@ public:
 int a[10],b[10],c[20],p,q,t;
 void create();
 void merge();
-void display();
+
 };
 void array::create(){
 int i;
@@ -20,13 +20,6 @@ cin>>q;
 cout<<"Enter the elements\n";
 for(i=1;i<=q;i++){
 cin>>b[i];
-}
-}
-
-void array::display(){
-cout<<"merged array is\n";
-for(int i=1;i<=t;i++){
-cout<<c[i]<<" ";
 }
 }
 

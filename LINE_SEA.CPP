@@ -5,7 +5,6 @@ int a[10],n;
 public:
 void create();
 void linear_search();
-void traversal();
 };
 
 void array::create(){
